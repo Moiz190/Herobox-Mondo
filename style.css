@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+.herobox-mondo-landing-page-container{
+    background-image: linear-gradient(to bottom right, #8797FF ,#3F137C 70%);
+    min-height: 100vh;
+    position:relative;
+    overflow: hidden;
+}
+.herobox-mondo-landing-page-container div{
+    opacity: 0.7;
+    position: absolute;
+    width: 48%;
+}
+.child-score{
+    top: 5%;
+    left: 5%;
+}
+.child-quickstart{
+    top: 20%;
+    right: 0%;
+}
+.child-aws{
+    top: 35%;
+}
+
+.child-vulnerabilities{
+    top: 40%;
+    right: 0%;
+}
+.child-kubernetes{
+    top: 55%;
+    left: 0%;    
+}
+.child-kubernetes-advance{
+    top: 65%;
+    right: 0%;   
+}
+.child-vulnerable-packages{
+    left: 0%;
+    top: 75%;
+}
+.child-minikube{
+    right: 0%;
+    bottom: -1%;
+}
+@media screen and (min-width:540px){
+    .herobox-mondo-landing-page-container div{
+        width: 38%;
+    }
+    .child-score{
+        top: 0;
+        left: 0%;
+    }
+    .child-aws{
+        top: 30%;
+        left: 10%;
+    }
+    .child-quickstart{
+        top: 5%;
+        right: 20%;
+    }
+    .child-vulnerabilities{
+        top: 25%;
+    }
+    .child-kubernetes-advance{
+        top: 57%;
+        right: 8%;
+    }
+    .child-minikube{
+        right: 15%;
+    }
+}
+@media screen and (min-width:768px) {
+    .herobox-mondo-landing-page-container div{
+        width: 28%;
+    }
+    .child-score{
+        top: 3%;
+    }
+    .child-quickstart{
+        left: 30%;
+    }
+    .child-aws{
+        left: 60%;
+        right: 0%;
+        top: 0%;
+    }
+    .child-kubernetes{
+        top: 40%;
+    }
+    .child-kubernetes-advance{
+        left: 10%;
+        top: 62%;
+    }
+    .child-minikube{
+        left: 30%;
+    }
+    .child-vulnerable-packages{
+        left:60%;
+        top:65%;
+    }
+}
+@media screen and (min-width:1200px) {
+
+    .herobox-mondo-landing-page-container div{
+        width: 28%;
+        transition: 1s;
+    }
+    .child-score:hover{
+        transform: translateY(-5%);
+    }
+    .child-quickstart{
+        left: 25%;
+    }
+    .child-quickstart:hover{
+        transform: translateY(-5%);
+    }
+    .child-aws:hover{
+        transform: translateY(-5%);
+    }
+    .child-kubernetes{
+        top: 45%;
+    }
+    .child-kubernetes:hover{
+        transform: translateY(-5%);
+    }
+    .child-vulnerabilities{
+        top: 15%;
+    }
+    .child-vulnerabilities:hover{
+        transform: translateY(-5%);   
+    }
+    .child-vulnerable-packages{
+        top: 60%;
+        left: 70%;
+    }
+    .child-vulnerable-packages:hover{
+        transform: translateY(-5%);
+    }
+    .child-minikube{  
+        left: 40%;
+    }
+    .child-minikube:hover{
+        transform: scale(120%);
+    }
+    .child-kubernetes-advance{
+        top: 70%;
+    }
+    .child-kubernetes-advance:hover{
+        transform: translateY(-5%);
+    }
+}
